@@ -1,0 +1,48 @@
+@media(max-width:375px){
+    header{
+        background-color: #0b0c0e;
+        padding: 1vw;
+        border-radius: 5px;
+        width: 100%;
+        .container{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .txt1{
+            color: #dfe6e9;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    
+        .menu-hamburguer{
+            width: 32px;
+        }
+        .menu-hamburguer span {
+            height: 2px;
+            width: 100%;
+            display: block;
+            margin-bottom: 6px;
+            background-color: #fff;
+        }
+    }
+    .Escala{
+        padding: 2vw;
+        h2{
+            text-align: center;
+            padding-bottom: 30px;
+        }
+         &__semana{
+            
+            h3{
+                text-align: center;
+                padding-bottom: 20px;
+            }
+            &__voluntarios{
+                max-width: 375px;
+                #voluntario1,#voluntario2{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

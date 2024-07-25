@@ -1,0 +1,20 @@
+{
+  "name": "projeto-agenda",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp",
+    "dev": "gulp watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gulp": "4.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.77.1",
+    "uglify": "^0.1.5"
+  }
+}
